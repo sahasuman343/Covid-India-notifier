@@ -54,7 +54,7 @@ def notify_me():
             timeout=1800,
             app_icon='icon.ico'
         )
-        time.sleep(1800)
+        time.sleep(900)
 
 '''
 # creating gui:
