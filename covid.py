@@ -36,14 +36,7 @@ def get_corona_detail_of_india():
 get_corona_detail_of_india()  
 
 
-'''
-    all_details = ""
-    for block in info_div:
-        count = block.find("span", class_="icount").get_text()
-        text = block.find("div", class_="info_label").get_text()
-        all_details = all_details + text + " : " + count + "\n"
-    return all_details
-'''
+
 
 # function use to  reload the data from website
 def refresh():
